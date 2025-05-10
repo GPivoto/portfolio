@@ -3,7 +3,6 @@ import { Moon, X } from "lucide-react";
 import { Button } from "./Button";
 import { useState } from "react";
 import menuBlack from "../assets/menu-black.png";
-import menuWhite from "../assets/menu-white.png";
 import Image from "next/image";
 
 export function Navbar() {
