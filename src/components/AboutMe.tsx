@@ -4,12 +4,12 @@ import { aboutGabriel, ferramentas } from "@/assets/assets";
 
 export function AboutMe() {
   return (
-    <section id="about" className="px-8 sm:px-14 md:px-20 mt-20 md:mt-40 ">
+    <section id="about" className="px-8 sm:px-14 md:px-20 mt-20 md:mt-25 ">
       <h2 className="text-center text-2xl sm:text-3xl md:text-6xl">
         Sobre <span className="text-purple-100">Mim</span>
       </h2>
 
-      <div className="flex max-w-300 mx-auto flex-col lg:flex-row items-center gap-10 md:gap-20 my-10 md:my-16">
+      <div className="flex max-w-300 mx-auto flex-col lg:flex-row items-center gap-10 md:gap-20 my-10 md:my-8">
         <div>
           <Image
             src={fotoGabriel}
@@ -18,9 +18,9 @@ export function AboutMe() {
           />
         </div>
         <div className="flex-1">
-          <p className="mb-10 max-w-2xl mt-0 lg:mt-10">
+          <p className="mb-10 max-w-2xl mt-0 lg:mt-18">
             Sou um desenvolvedor front-end em formação, com vontade de aprender
-            e crescer em cada projeto. Faço parte de uma empresa júnior e estou
+            e crescer em cada projeto. Faço parte de uma empresa júnior do INATEL chamada CP2eJr, onde sou assessor do ND(núcleo de deselvovimento) e estou
             sempre buscando formas de otimizar processos e entregar valor com
             soluções criativas e bem estruturadas.
           </p>
