@@ -8,7 +8,7 @@ import { ArrowRight, Download } from "lucide-react";
 
 export function Header() {
   return (
-    <section className="flex flex-col items-center justify-center mt-25 px-8 sm:px-14 md:px">
+    <section className="flex flex-col items-center justify-center mt-20 px-8 sm:px-14 md:px-20">
       <div className="flex flex-col items-center gap-5">
         <Image
           src={fotoGabriel}
