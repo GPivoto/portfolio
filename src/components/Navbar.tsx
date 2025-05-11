@@ -12,7 +12,7 @@ export function Navbar() {
     <>
       <header
         id="home"
-        className="mt-5 flex justify-between items-center px-8 sm:px-14 md:px-20 sticky top-0 bg-white z-50 backdrop-blur-lg"
+        className="max-w-400 mx-auto w-full mt-5 flex justify-between items-center px-8 sm:px-14 md:px-20 sticky top-0 bg-white z-50 backdrop-blur-lg"
       >
         <h1 className="text-black-50 font-bold text-2xl md:text-3xl">
           <a href="#home">

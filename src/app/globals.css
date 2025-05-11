@@ -1,10 +1,11 @@
 @import "tailwindcss";
+@import "tailwindcss-animated";
+
 
 @theme{
    --color-black-50: #1E1E1E;
    --color-gray-50: #A7A7A7;
    --color-gray-100: #4D4D4D;
-   --color-red-50: #EC1552;
-   --color-purple-50: #9370db;
    --color-purple-100: #8b5be4;
 }
+
