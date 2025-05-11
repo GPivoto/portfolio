@@ -4,7 +4,6 @@ import Image from "next/image";
 import fotoGabriel from "../assets/gabriel.png";
 import maozinha from "../assets/hand-icon.png";
 import Typewriter from "typewriter-effect";
-import { Button } from "./Button";
 import { ArrowRight, Download } from "lucide-react";
 
 export function Header() {
