@@ -3,6 +3,7 @@
 import { ArrowRight, Loader2 } from "lucide-react";
 import { useState } from "react";
 import { Footer } from "./Footer";
+import ScrollToTop from "./ScrollToTop";
 
 export function Contact() {
 
@@ -36,7 +37,7 @@ export function Contact() {
   return (
     <section
       id="contact"
-      className="px-8 sm:px-14 md:px-20 mt-20 md:mt-25 scroll-mt-25"
+      className="px-8 sm:px-14 md:px-20 mt-20 md:mt-25 scroll-mt-25 mb-10"
     >
       <div className="flex flex-col items-center space-y-3">
         <h5 className="text-xl sm:text-2xl md:text-3xl">Conecte-se comigo</h5>
@@ -84,6 +85,7 @@ export function Contact() {
         <p className="mt-4">{result}</p>
       </form>
 
+      <ScrollToTop />
       <Footer />
     </section>
   );

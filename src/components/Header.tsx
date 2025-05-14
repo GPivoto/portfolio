@@ -48,14 +48,17 @@ export function Header() {
         </h1>
 
         <div className="flex flex-col sm:flex-row gap-5 mt-9">
-          <button className="cursor-pointer w-50 px-5 py-4  bg-purple-100 hover:bg-purple-100/90 active:bg-purple-800 text-white rounded-full flex items-center justify-center gap-2">
-            <p className="text-nowrap">Entre em Contato</p>
-            <ArrowRight className="w-5"/> 
-          </button>
+          <a href="#contact">
+            <button className="cursor-pointer w-50 px-5 py-4  bg-purple-100 hover:bg-purple-100/90 active:bg-purple-800 text-white rounded-full flex items-center justify-center gap-2">
+              <p className="text-nowrap">Entre em Contato</p>
+              <ArrowRight className="w-5" />
+            </button>
+          </a>
+
           <a href="/curriculoGabriel.pdf" download={true}>
             <button className="group cursor-pointer w-50 px-5 py-4 border border-gray-50 text-gray-100 rounded-full flex items-center justify-center gap-2">
               <p className="text-nowrap">Meu currículo</p>
-              <Download className="group-hover:animate-bounce delay-200 duration-400 ease-in-out"/>
+              <Download className="group-hover:animate-bounce delay-200 duration-400 ease-in-out" />
             </button>
           </a>
         </div>

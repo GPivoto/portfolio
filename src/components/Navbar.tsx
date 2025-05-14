@@ -64,7 +64,10 @@ export function Navbar() {
 
           <div className=" hidden lg:flex items-center space-x-5">
             <Moon className=" text-gray-100/80 cursor-pointer" />
-            <Button text="Connect" />
+            <a href="#contact">
+              <Button text="Conecte-se" />
+            </a>
+            
           </div>
 
           <div className="sm:hidden flex items-center space-x-4">
