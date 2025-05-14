@@ -1,6 +1,6 @@
 'use client'
 
-import { ArrowRight, Loader2 } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { useState } from "react";
 import { Footer } from "./Footer";
 import ScrollToTop from "./ScrollToTop";

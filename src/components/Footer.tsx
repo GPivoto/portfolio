@@ -1,6 +1,4 @@
 import { Github, Linkedin, Mail } from "lucide-react";
-import Image from "next/image";
-import gitHubIcon from "../assets/github.svg";
 
 export function Footer() {
   return (
