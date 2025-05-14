@@ -10,7 +10,7 @@ export function Navbar() {
 
   return (
     <>
-      <header className="shadow-black-50  w-full sticky top-0 bg-white z-50 backdrop-blur-3xl">
+      <header className="shadow-black-50 w-full sticky top-0 bg-white z-50 backdrop-blur-3xl">
         <div
           id="home"
           className="max-w-400 mx-auto w-full py-3 flex justify-between items-center px-8 sm:px-14 md:px-20"
