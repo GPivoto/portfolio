@@ -24,7 +24,7 @@ export function Projects() {
           {projetos.map((item, index) => (
             <li
               key={index}
-              className=" flex flex-col lg:flex-row items-center justify-center border border-gray-400 dark:border-purple-100 rounded-xl py-5 px-5 md:gap-6  hover:-translate-y-1 duration-500 hover:shadow-black dark:text-dark"
+              className=" flex flex-col lg:flex-row items-center justify-center border border-gray-400 dark:border-purple-100 rounded-xl py-5 px-5 md:gap-6  hover:-translate-y-1 duration-500 hover:shadow-black dark:hover:shadow-purple dark:text-dark"
             >
               <a
                 href={item.href}
