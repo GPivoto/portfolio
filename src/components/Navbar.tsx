@@ -87,7 +87,7 @@ export function Navbar() {
       {/* mobile menu */}
 
       <div
-        className={`md:hidden z-99 fixed top-0 right-0 bottom-0 overflow-hidden bg-white border-l transition-all duration-500 ${
+        className={`md:hidden z-99 fixed top-0 right-0 bottom-0 overflow-hidden bg-white dark:bg-gray-900 border-l transition-all duration-500 ${
           visible ? "w-1/2" : "w-0"
         }`}
       >
@@ -95,7 +95,7 @@ export function Navbar() {
           onClick={() => setVisible(false)}
           className="absolute right-6 top-6 cursor-pointer"
         >
-          <X className="w-6 text-black" />
+          <X className="w-6 text-black dark:text-dark" />
         </div>
 
         <ul className="mt-20 px-10 space-y-4">
@@ -103,7 +103,7 @@ export function Navbar() {
             <a
               onClick={() => setVisible(false)}
               href="#home"
-              className="relative font-semibold text-gray-100 transition-all duration-300 ease-in-out hover:text-purple-100 group"
+              className="relative font-semibold text-gray-100 dark:text-dark transition-all duration-300 ease-in-out hover:text-purple-100 group"
             >
               Home
               <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-purple-100 transition-all duration-300 group-hover:w-full"></span>
@@ -113,7 +113,7 @@ export function Navbar() {
             <a
               onClick={() => setVisible(false)}
               href="#about"
-              className="relative font-semibold text-gray-100 transition-all duration-300 ease-in-out hover:text-purple-100 group"
+              className="relative font-semibold text-gray-100 dark:text-dark transition-all duration-300 ease-in-out hover:text-purple-100 group"
             >
               Sobre mim
               <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-purple-100 transition-all duration-300 group-hover:w-full"></span>
@@ -123,7 +123,7 @@ export function Navbar() {
             <a
               onClick={() => setVisible(false)}
               href="#projects"
-              className="relative font-semibold text-gray-100 transition-all duration-300 ease-in-out hover:text-purple-100 group"
+              className="relative font-semibold text-gray-100 dark:text-dark transition-all duration-300 ease-in-out hover:text-purple-100 group"
             >
               Projetos
               <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-purple-100 transition-all duration-300 group-hover:w-full"></span>
@@ -133,7 +133,7 @@ export function Navbar() {
             <a
               onClick={() => setVisible(false)}
               href="#contact"
-              className="relative font-semibold text-gray-100 transition-all duration-300 ease-in-out hover:text-purple-100 group"
+              className="relative font-semibold text-gray-100 dark:text-dark transition-all duration-300 ease-in-out hover:text-purple-100 group"
             >
               Contato
               <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-purple-100 transition-all duration-300 group-hover:w-full"></span>

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import fotoGabriel from "../assets/gabriel.png";
 import { aboutGabriel, ferramentas } from "@/assets/assets";
 
 export function AboutMe() {
