@@ -40,11 +40,11 @@ export function Contact() {
       className="px-8 sm:px-14 md:px-20 mt-20 md:mt-25 scroll-mt-25 mb-10"
     >
       <div className="flex flex-col items-center space-y-3">
-        <h5 className="text-xl sm:text-2xl md:text-3xl">Conecte-se comigo</h5>
+        <h5 className="text-xl sm:text-2xl md:text-3xl dark:text-dark">Conecte-se comigo</h5>
         <h3 className="text-3xl md:text-5xl lg:text-6xl">
-          Entre em <span className="text-purple-100">Contato</span>
+         <span className="dark:text-dark">Entre em</span> <span className="text-purple-100">Contato</span>
         </h3>
-        <p className="text-center max-w-[577px] mt-2 md:leading-7">
+        <p className="text-center max-w-[577px] mt-2 md:leading-7 dark:text-dark">
           Adoraria ouvir você! Se tiver alguma dúvida, comentário ou sugestão,
           por favor, use o formulário abaixo.
         </p>
@@ -53,14 +53,14 @@ export function Contact() {
       <form onSubmit={onSubmit} className="max-w-2xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10 mb-8">
           <input
-            className="flex-1 p-3 outline-none border border-gray-400 rounded-md bg-white"
+            className="flex-1 p-3 outline-none border border-gray-400 rounded-md bg-white dark:bg-dark"
             type="text"
             placeholder="Digite seu nome"
             required
             name="name"
           />
           <input
-            className="flex-1 p-3 outline-none border border-gray-400 rounded-md bg-white"
+            className="flex-1 p-3 outline-none border border-gray-400 rounded-md bg-white dark:bg-dark"
             type="email"
             placeholder="Digite seu e-mail"
             required
@@ -68,7 +68,7 @@ export function Contact() {
           />
         </div>
         <textarea
-          className="w-full p-4 outline-none border border-gray-400 rounded-md bg-white mb-6"
+          className="w-full p-4 outline-none border border-gray-400 rounded-md bg-white dark:bg-dark mb-6"
           rows={6}
           placeholder="Digite sua mensagem"
           required
@@ -82,7 +82,7 @@ export function Contact() {
           <ArrowRight className="w-5 mt-1" />
         </button>
 
-        <p className="mt-4">{result}</p>
+        <p className="mt-4 dark:text-dark">{result}</p>
       </form>
 
       <ScrollToTop />

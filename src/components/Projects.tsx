@@ -7,11 +7,11 @@ export function Projects() {
     <section id="projects" className="px-8 sm:px-14 md:px-20 mt-20 md:mt-25 scroll-mt-25">
       <div className="max-w-300 mx-auto w-full">
         <div className="flex flex-col items-center space-y-5 md:space-y-7">
-          <p className="text-xl sm:text-2xl md:text-3xl">Meu Portfólio</p>
+          <p className="text-xl sm:text-2xl md:text-3xl dark:text-dark">Meu Portfólio</p>
           <h3 className="text-3xl md:text-5xl lg:text-6xl">
-            Alguns <span className="text-purple-100">projetos</span>
+            <span className="dark:text-dark">Alguns</span> <span className="text-purple-100">projetos</span>
           </h3>
-          <p className="text-center max-w-3xl md:text-lg leading-7">
+          <p className="text-center max-w-3xl md:text-lg leading-7 dark:text-dark">
             Esta seção reúne projetos desenvolvidos tanto para clientes quanto
             como parte do meu processo de aprendizado. Cada um representa uma
             oportunidade de aplicar boas práticas em design, usabilidade e
@@ -24,7 +24,7 @@ export function Projects() {
           {projetos.map((item, index) => (
             <li
               key={index}
-              className="flex flex-col lg:flex-row items-center justify-center border border-gray-400 rounded-xl py-5 px-5 md:gap-4 lg:gap-0 hover:-translate-y-1 duration-500 hover:shadow-black"
+              className=" flex flex-col lg:flex-row items-center justify-center border border-gray-400 dark:border-purple-100 rounded-xl py-5 px-5 md:gap-6  hover:-translate-y-1 duration-500 hover:shadow-black dark:text-dark"
             >
               <a
                 href={item.href}

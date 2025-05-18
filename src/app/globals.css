@@ -1,12 +1,18 @@
 @import "tailwindcss";
 @import "tailwindcss-animated";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --color-black-50: #1e1e1e;
   --color-gray-50: #a7a7a7;
   --color-gray-100: #4d4d4d;
   --color-purple-50: #edd4ff;
   --color-purple-100: #8b5be4;
+
+  --color-dark:#E4E2DF;
+  ---color-gray-700:#1F2222;
+  --color-backgroundDark:#1a1a1a;
 
   --shadow-black: 4px 4px 0px #000;
   --shadow-black-50: 0px 0px 16px #a7a7a7;

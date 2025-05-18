@@ -16,7 +16,7 @@ export function Header() {
           className="size-30 md:size-40 object-cover rounded-full overflow-hidden rotate-12"
         />
         <div className="flex items-center text-center">
-          <p className="text-xl sm:text-2xl md:text-3xl text-nowrap">
+          <p className="text-xl sm:text-2xl md:text-3xl text-nowrap dark:text-dark">
             Olá, eu sou Gabriel Pivoto!
           </p>
           <Image
@@ -28,7 +28,7 @@ export function Header() {
       </div>
 
       <div className="flex flex-col items-center mt-4 sm:mt-8">
-        <h1 className="text-xl sm:text-3xl md:text-5xl lg:text-6xl max-w-200 text-center">
+        <h1 className="text-xl sm:text-3xl md:text-5xl lg:text-6xl max-w-200 text-center dark:text-dark">
           Desenvolvedor front-end apaixonado por transformar{" "}
           <span className="text-purple-500">
             <Typewriter
@@ -56,9 +56,9 @@ export function Header() {
           </a>
 
           <a href="/curriculoGabriel.pdf" download={true}>
-            <button className="group cursor-pointer w-50 px-5 py-4 border border-gray-50 text-gray-100 rounded-full flex items-center justify-center gap-2">
-              <p className="text-nowrap">Meu currículo</p>
-              <Download className="group-hover:animate-bounce delay-200 duration-400 ease-in-out" />
+            <button className="group cursor-pointer w-50 px-5 py-4 border border-gray-50 dark:border-dark text-gray-100 rounded-full flex items-center justify-center gap-2">
+              <p className="text-nowrap dark:text-dark">Meu currículo</p>
+              <Download className="group-hover:animate-bounce delay-200 duration-400 ease-in-out dark:text-dark" />
             </button>
           </a>
         </div>

@@ -12,6 +12,7 @@ import geia from "../assets/geia.png"
 import virtualR from "../assets/virtualR.png"
 import techstore from "../assets/techstore.png"
 import projetoNext from "../assets/projetoNext.png"
+import gitHub from "../assets/github.svg"
 
 export const aboutGabriel = [
     {icon: codeIcon, iconDark: codeIconDark, title: "Front End", text: "HTML, CSS, JavaScript, Typescript, React Js, Next Js, Tailwind CSS"},
@@ -21,7 +22,7 @@ export const aboutGabriel = [
 
 export const ferramentas = [
     {icon: vsCode, alt: "VS Code"},
-    {icon: gitHubDark, alt: "Git Hub"},
+    {icon: gitHubDark, iconDark: gitHub , alt: "Git Hub"},
     {icon: git, alt: "Git"},
     {icon: figma, alt: "Figma"},
 

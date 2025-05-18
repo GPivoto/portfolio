@@ -5,14 +5,14 @@ export function Footer() {
     <footer id="footer" className="max-w-300 w-full mx-auto mt-25 md:mt-30">
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-black-50 font-bold text-2xl md:text-3xl">
-          Gabriel<span className="text-purple-100">Pivoto.</span>
+         <span className="dark:text-dark">Gabriel</span><span className="text-purple-100">Pivoto.</span>
         </h1>
       </div>
 
       <div className="flex flex-col md:flex-row items-center justify-between max-w-250 mx-auto mt-2 md:mt-5 md:mb-2 mb-5 ">
         <div className="flex items-center space-x-2 mt-0 md:mt-3 mb-5">
-          <Mail className="w-6 text-[#7c7c7c] stroke-gray-100" />
-          <p className="text-gray-100 text-lg">gabrielmpivoto10@gmail.com</p>
+          <Mail className="w-6 text-[#7c7c7c] stroke-gray-100 dark:stroke-dark" />
+          <p className="text-gray-100 text-lg dark:text-dark">gabrielmpivoto10@gmail.com</p>
         </div>
 
         <div>
@@ -39,7 +39,7 @@ export function Footer() {
       <div className="border-t-2 border-gray-400"></div>
 
       <div className="flex items-center justify-center mt-5">
-        <p className="text-gray-100 text-center">
+        <p className="text-gray-100 text-center dark:text-dark">
           © 2025 Gabriel Pivoto. Todos direitos reservados.
         </p>
       </div>
