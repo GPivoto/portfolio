@@ -55,7 +55,7 @@ export function Header() {
             </button>
           </a>
 
-          <a href="/curriculoGabriel.pdf" download={true}>
+          <a href="/curriculoGabriel.pdf.pdf" download={true}>
             <button className="group cursor-pointer w-50 px-5 py-4 border border-gray-50 dark:border-dark text-gray-100 rounded-full flex items-center justify-center gap-2">
               <p className="text-nowrap dark:text-dark">Meu currículo</p>
               <Download className="group-hover:animate-bounce delay-200 duration-400 ease-in-out dark:text-dark" />
